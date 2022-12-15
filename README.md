@@ -1,6 +1,8 @@
 # Project Name
 
-  - Easy Quiz
+![Quizer_no_logo-removebg-preview](https://user-images.githubusercontent.com/78850311/207855864-59f0fe92-6666-41bf-8d86-03da88a64bfb.png)
+
+  - Easy Quiz 
   
 # Description
 
