@@ -9,7 +9,7 @@
   - Andriod application, that allows user to participate in different quizes.
   - This app uses ***opentdb.com*** open API to get questions.
   - App uses SharedPreferences to store quizes results and display the best one.
-  - App constists of multiple views, created by Jetpack Compose.
+  - App constists of multiple views and fragments.
   
 # Installation
 
