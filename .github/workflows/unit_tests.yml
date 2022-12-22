@@ -17,7 +17,7 @@ jobs:
       - name: Change access
         run: cd quizz_app && chmod 777 gradlew
       - name: Run unit tests
-        run: ./gradlew test
+        run: quizz_app/gradlew test
       - name: Test Reporter
         uses: dorny/test-reporter@v1.6.0
       - uses: actions/upload-artifact@v2  # upload test results
