@@ -18,6 +18,8 @@ jobs:
         run: chmod 777 ./gradlew
       - name: Run unit tests
         run: ./gradlew test
+      - name: Test Reporter
+        uses: dorny/test-reporter@v1.6.0
       - uses: actions/upload-artifact@v2  # upload test results
         if: success() || failure()        # run this step even if previous step failed
         with:
