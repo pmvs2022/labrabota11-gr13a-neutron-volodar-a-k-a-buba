@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-java@v1
         with: {java-version: 1.8}
       - name: Cd to project
-        run: cd ./AstroEvents
+        run: cd ./quizz_app
       - name: Change access
         run: chmod 777 ./gradlew
       - name: Run unit tests
