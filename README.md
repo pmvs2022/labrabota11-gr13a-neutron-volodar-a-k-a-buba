@@ -19,7 +19,7 @@
 # Usage: 
 
   - Use this application to test your knowledge of this world!
-  - Screenshots:
+  - Some screenshots:
   
 # Contributing
 
