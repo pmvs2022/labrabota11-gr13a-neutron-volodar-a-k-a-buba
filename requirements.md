@@ -9,5 +9,7 @@
 
 # Use case diagram  
 
+![usecase](usecase.png)
+
 # Text scripts  
 As a user of our app, you can customize an app theme you like. Before you decide to start a new quiz you can see your best score of previous games. We get all the questions for the quiz from the open API (opentdb.com). Use swipes to navigate between quiz questions. Once you have completed the quiz, you will be given the opportunity to check your answers. If your score is better than in previous games, your best record value will be updated. Next, you will be redirected to the main page of the application.
