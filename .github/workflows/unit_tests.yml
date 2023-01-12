@@ -18,10 +18,11 @@ jobs:
         run: cd quizz_app && chmod 777 gradlew
       - name: Run unit tests
         run: cd quizz_app && ./gradlew clean && ./gradlew test
-      - name: Test Reporter
-        uses: dorny/test-reporter@v1.6.0
-      - uses: actions/upload-artifact@v2  # upload test results
-        if: success() || failure()        # run this step even if previous step failed
+      - name: Report
+        uses: dorny/test-reporter@v1
+        if: always()
         with:
-          name: test-results
-          path: jest-junit.xml
+          name: Maven Tests
+          path: target/surefire-reports/*.xml
+          reporter: java-junit
+          fail-on-error: true
