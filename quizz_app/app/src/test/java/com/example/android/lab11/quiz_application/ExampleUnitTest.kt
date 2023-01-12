@@ -1,5 +1,8 @@
 package com.example.android.lab11.quiz_application
 
+import com.example.android.lab11.quiz_application.domain.main.AppThemeRepository
+import com.example.android.lab11.quiz_application.domain.main.usecase.GetAppThemeUseCase
+import org.junit.Assert
 import org.junit.Test
 
 import org.junit.Assert.*
