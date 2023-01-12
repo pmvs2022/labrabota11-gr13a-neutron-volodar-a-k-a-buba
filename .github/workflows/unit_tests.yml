@@ -23,12 +23,14 @@ jobs:
           distribution: 'temurin'
           cache: gradle
       - name: Run unit tests
-        run: cd quizz_app && ./gradlew clean && ./gradlew test --stacktrace
-      - name: Report
-        uses: dorny/test-reporter@v1
-        if: always()
+        run: cd quizz_app && ./gradlew clean && ./gradlew test && ./gradlew assembleRelease && ./gradlew bundleRelease
+      - name: Upload .apk
+        uses: actions/upload-artifact@v3
         with:
-          name: Unit Tests
-          path: reports/jest-junit.xml
-          reporter: java-junit
-          fail-on-error: true
+          name: QuizzAPK
+          path: quizz_app/app/build/outputs/apk/release/app-release.apk
+      - name: Upload AAB Bundle
+        uses: actions/upload-artifact@v3
+        with:
+          name: QizzAAB
+          path: quizz_app/app/build/outputs/bundle/release/app-release.aab
