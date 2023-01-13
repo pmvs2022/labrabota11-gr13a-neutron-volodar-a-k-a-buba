@@ -45,7 +45,7 @@ jobs:
  
       - name: Build APK for UI test after Unit tests
         run: |
-          cd quiz_app
+          cd quizz_app
           chmod +x gradlew
           ./gradlew test
           ./gradlew assembleDebug
