@@ -52,6 +52,8 @@ jobs:
           project_id: ${{ secrets.FIREBASE_PROJECT_ID }}
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@v1
+        with:
+          project_id: ${{ secrets.FIREBASE_PROJECT_ID }}
  
       - name: Run UI tests in cloud
         run: |
