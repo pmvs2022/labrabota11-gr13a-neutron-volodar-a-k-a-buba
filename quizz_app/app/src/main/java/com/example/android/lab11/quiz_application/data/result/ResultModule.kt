@@ -20,6 +20,7 @@ class ResultModule {
     fun provideResultRepository(
         prefsManager: PreferenceManager,
         resourceManager: ResourceManager
+
     ): ResultRepository =
         ResultRepositoryImpl(prefsManager, resourceManager)
 }

@@ -11,7 +11,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.rsshool2021.android.finaltask.quiz_application"
+        applicationId "com.example.android.lab11.quiz_application"
         minSdk 24
         targetSdk 31
         versionCode 1
