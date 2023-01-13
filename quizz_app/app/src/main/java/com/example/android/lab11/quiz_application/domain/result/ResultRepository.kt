@@ -6,4 +6,5 @@ interface ResultRepository {
 
     suspend fun saveBestResult(result: Int)
 
+    // some comment
 }

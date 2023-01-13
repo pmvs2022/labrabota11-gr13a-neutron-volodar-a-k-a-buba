@@ -7,6 +7,7 @@ class QuestionTest {
 
     val question = Question("question name", listOf("a", "b", "c"), "b", "b")
 
+    // first test
     @Test
     fun checkData(){
         Assert.assertEquals(question.question, "question name")
@@ -15,6 +16,7 @@ class QuestionTest {
         Assert.assertEquals(question.correctAnswer, "b")
     }
 
+    // second test
     @Test
     fun checkMethods(){
         Assert.assertEquals(question.isCorrect(), true)
