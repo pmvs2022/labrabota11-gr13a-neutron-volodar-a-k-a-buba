@@ -36,7 +36,6 @@ jobs:
           path: quizz_app/app/build/outputs/bundle/release/app-release.aab
           
   assemble_ui_test_artifacts:
-    if: startsWith(github.head_ref, 'release/') == true
     name: Build artifacts
     runs-on: ubuntu-20.04
     steps:
