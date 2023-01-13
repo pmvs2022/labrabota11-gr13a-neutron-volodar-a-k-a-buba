@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: QuizzAPK
-          path: quizz_app/app/build/outputs/apk/release/app-release.apk
+          path: quizz_app/app/build/outputs/apk/release/app-release-unsigned.apk
       - name: Upload AAB Bundle
         uses: actions/upload-artifact@v3
         with:
