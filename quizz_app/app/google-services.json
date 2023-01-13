@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "748993226781",
+    "project_id": "easy-quizy-1e611",
+    "storage_bucket": "easy-quizy-1e611.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748993226781:android:6727bd9b34fa58cf8efef4",
+        "android_client_info": {
+          "package_name": "com.rsshool2021.android.finaltask.quiz_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748993226781-k7n7enth7o4p2512caci6meo5br2ennj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_kzIFw8pziq31v1NoToLbEvlX6wXw-TM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748993226781-k7n7enth7o4p2512caci6meo5br2ennj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
